@@ -572,85 +572,197 @@
         "memo": "loot"
     },
     {
-        "action": "ensure_turn_to",
-        "angle": "30度",
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "m"
+        },
+        "arrival_distance": 3,
+        "auto_switch_point_distance": true,
         "execute_index": 112,
+        "memo": "零号大坝 / 物资207-管道外门 cmb模式",
+        "points": [
+            {
+                "x": 529,
+                "y": 532
+            },
+            {
+                "x": 539,
+                "y": 526
+            },
+            {
+                "with_run": false,
+                "x": 545,
+                "y": 520
+            },
+            {
+                "with_run": false,
+                "x": 553,
+                "y": 516
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    },
+    {
+        "action": "goto_point",
+        "angle_option": {
+            "look_down_before_capture": true,
+            "look_down_sleep": "450ms",
+            "restore_view_after": true,
+            "retry_count": 5,
+            "source": "c",
+            "switch_look_down_after_failures": 5,
+            "turn_right_sleep": "400ms"
+        },
+        "arrival": 0.5,
+        "execute_index": 113,
+        "fine_start": 3,
+        "fine_steps": 15,
+        "initial_turn": {
+            "target_angle": 147,
+            "tolerance": 1
+        },
+        "point": [
+            556,
+            518
+        ],
+        "turn": false
+    },
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "m"
+        },
+        "arrival_distance": 4,
+        "auto_switch_point_distance": true,
+        "execute_index": 114,
+        "memo": "零号大坝 / 路线 17",
+        "points": [
+            {
+                "x": 560,
+                "y": 523
+            },
+            {
+                "x": 568,
+                "y": 532
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    },
+    {
+        "action": "左前",
+        "duration": "2.5s",
+        "execute_index": 115
+    },
+    {
+        "action": "ensure_turn_to",
+        "angle": "145度",
+        "execute_index": 116,
         "tolerance": 0.5
     },
     {
         "action": "恢复视角",
-        "execute_index": 113
+        "execute_index": 117
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s",
+        "execute_index": 118,
+        "memo": "零号大坝 / 物资207-管道外门 cmb模式"
+    },
+    {
+        "action": "ensure_turn_to",
+        "angle": "30度",
+        "execute_index": 119,
+        "ignore": true,
+        "memo": "物资207-管道外门",
+        "tolerance": 0.5
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 120,
+        "ignore": true,
+        "memo": "物资207-管道外门"
     },
     {
         "action": "等待",
         "duration": "1s",
-        "execute_index": 114
+        "execute_index": 121,
+        "ignore": true,
+        "memo": "物资207-管道外门"
     },
     {
         "action": "右转",
         "angle": "20度",
-        "execute_index": 115,
-        "memo": "50度"
+        "execute_index": 122,
+        "ignore": true,
+        "memo": "50度 物资207-管道外门"
     },
     {
         "action": "前进",
         "duration": "4.15s",
-        "execute_index": 116,
+        "execute_index": 123,
+        "ignore": true,
+        "memo": "物资207-管道外门",
         "with_run": true
     },
     {
         "action": "右转",
         "angle": "85度",
-        "execute_index": 117,
-        "memo": "135度"
+        "execute_index": 124,
+        "ignore": true,
+        "memo": "135度 物资207-管道外门"
     },
     {
         "action": "前进",
         "duration": "4.5s",
-        "execute_index": 118,
+        "execute_index": 125,
+        "ignore": true,
+        "memo": "物资207-管道外门",
         "with_run": true
     },
     {
         "action": "右移",
         "duration": "0.3s",
-        "execute_index": 119,
+        "execute_index": 126,
         "with_run": true
     },
     {
         "action": "等待",
         "duration": "1s",
-        "execute_index": 120
+        "execute_index": 127
     },
     {
         "action": "长按键",
         "duration": "3s",
-        "execute_index": 121,
+        "execute_index": 128,
         "key": "f",
         "memo": "破门"
     },
     {
         "action": "开门",
-        "execute_index": 122
+        "execute_index": 129
     },
     {
         "action": "等待",
         "duration": "1s",
-        "execute_index": 123
+        "execute_index": 130
     },
     {
         "action": "右前",
         "duration": "2s",
-        "execute_index": 124
+        "execute_index": 131
     },
     {
         "action": "前进",
         "duration": "2s",
-        "execute_index": 125
+        "execute_index": 132
     },
     {
         "action": "左前",
         "duration": "1.5s",
-        "execute_index": 126,
+        "execute_index": 133,
         "memo": "卡在灯处"
     }
 ]

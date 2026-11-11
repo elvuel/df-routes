@@ -2,7 +2,7 @@
     {
         "action": "continuous_move_by_points",
         "angle_option": {
-            "source": "Minimap"
+            "source": "m"
         },
         "arrival_distance": 4,
         "auto_switch_point_distance": true,
@@ -66,5 +66,10 @@
     {
         "action": "press_g",
         "execute_index": 3
+    },
+    {
+        "action": "左移",
+        "duration": "0.5s",
+        "execute_index": 4
     }
 ]

@@ -62,61 +62,61 @@
     },
     {
         "action": "import",
-        "execute_index": 35,
+        "execute_index": 12,
         "import_code": "imp1",
         "seq_name": "西楼1号位/西楼1号位-行政楼西南门"
     },
     {
         "action": "import",
-        "execute_index": 35,
-        "import_code": "imp1",
+        "execute_index": 13,
+        "import_code": "imp2",
         "seq_name": "西楼1号位/行政楼西南门-行政楼南门鸟窝"
     },
     {
         "action": "import",
-        "execute_index": 8,
+        "execute_index": 14,
         "import_code": "imp7",
         "seq_name": "物资点/111"
     },
     {
         "action": "import",
-        "execute_index": 9,
+        "execute_index": 15,
         "import_code": "imp8",
         "seq_name": "share/行政楼南门鸟窝-坝顶滑索-分段1"
     },
     {
         "action": "import",
-        "execute_index": 10,
+        "execute_index": 16,
         "import_code": "imp9",
         "seq_name": "share/行政楼南门鸟窝-坝顶滑索-分段2"
     },
     {
         "action": "import",
-        "execute_index": 11,
+        "execute_index": 17,
         "import_code": "imp10",
         "seq_name": "share/上坝顶索道"
     },
     {
         "action": "import",
-        "execute_index": 12,
+        "execute_index": 18,
         "import_code": "imp11",
         "seq_name": "share/坝顶索道口-索道门房"
     },
     {
         "action": "import",
-        "execute_index": 13,
+        "execute_index": 19,
         "import_code": "imp12",
         "seq_name": "share/坝顶滑索附近舔包"
     },
     {
         "action": "import",
-        "execute_index": 13,
+        "execute_index": 20,
         "import_code": "imp13",
         "seq_name": "share/坝顶索道鸟窝-坝顶门房"
     },
     {
         "action": "import",
-        "execute_index": 14,
+        "execute_index": 21,
         "import_code": "imp14",
         "seq_name": "share/坝顶舔包-撤离"
     }

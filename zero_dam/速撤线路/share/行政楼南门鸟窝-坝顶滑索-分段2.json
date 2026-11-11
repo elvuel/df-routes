@@ -2,7 +2,7 @@
     {
         "action": "continuous_move_by_points",
         "angle_option": {
-            "source": "Minimap"
+            "source": "m"
         },
         "arrival_distance": 0.5,
         "auto_switch_point_distance": true,
@@ -42,7 +42,7 @@
                 "y": 766
             }
         ],
-        "switch_point_distance": 12,
+        "switch_point_distance": 8,
         "with_run": true
     },
     {

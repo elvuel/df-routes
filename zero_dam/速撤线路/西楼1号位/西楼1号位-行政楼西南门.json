@@ -1,32 +1,32 @@
 [
-  {
-    "execute_index": 0,
-    "action": "continuous_move_by_points",
-    "memo": "零号大坝 / 西楼1号位-行政楼西南门",
-    "with_run": true,
-    "angle_option": {
-      "source": "Minimap"
-    },
-    "auto_switch_point_distance": true,
-    "switch_point_distance": 12,
-    "arrival_distance": 0.5,
-    "points": [
-      {
-        "x": 810,
-        "y": 423
-      },
-      {
-        "x": 813,
-        "y": 450
-      },
-      {
-        "x": 846,
-        "y": 475
-      },
-      {
-        "x": 862,
-        "y": 516
-      }
-    ]
-  }
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "m"
+        },
+        "arrival_distance": 0.5,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 西楼1号位-行政楼西南门",
+        "points": [
+            {
+                "x": 810,
+                "y": 423
+            },
+            {
+                "x": 813,
+                "y": 450
+            },
+            {
+                "x": 846,
+                "y": 475
+            },
+            {
+                "x": 862,
+                "y": 516
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    }
 ]

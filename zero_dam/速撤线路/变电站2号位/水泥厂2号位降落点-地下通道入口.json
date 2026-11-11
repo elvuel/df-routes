@@ -2,7 +2,7 @@
     {
         "action": "continuous_move_by_points",
         "angle_option": {
-            "source": "Minimap"
+            "source": "m"
         },
         "arrival_distance": 3,
         "auto_switch_point_distance": true,
@@ -36,7 +36,7 @@
     {
         "action": "goto_point",
         "angle_option": {
-            "source": "Compass"
+            "source": "c"
         },
         "arrival": 0.5,
         "execute_index": 1,
