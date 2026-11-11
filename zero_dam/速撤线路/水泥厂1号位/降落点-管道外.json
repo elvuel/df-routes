@@ -1,0 +1,48 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 0.2,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 降落点-管道外",
+        "points": [
+            {
+                "x": 675,
+                "y": 681
+            },
+            {
+                "x": 662,
+                "y": 670
+            },
+            {
+                "x": 644,
+                "y": 676
+            },
+            {
+                "x": 640,
+                "y": 671
+            },
+            {
+                "x": 636,
+                "y": 641
+            },
+            {
+                "x": 626,
+                "y": 622
+            },
+            {
+                "x": 590,
+                "y": 572
+            },
+            {
+                "x": 560,
+                "y": 570
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    }
+]

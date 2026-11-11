@@ -1,0 +1,73 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 4,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 游客中心1号位降落点-坝顶索道门房",
+        "points": [
+            {
+                "x": 1566,
+                "y": 957
+            },
+            {
+                "x": 1543,
+                "y": 904
+            },
+            {
+                "x": 1513,
+                "y": 890
+            },
+            {
+                "x": 1480,
+                "y": 874
+            },
+            {
+                "x": 1470,
+                "y": 843
+            },
+            {
+                "x": 1456,
+                "y": 806
+            },
+            {
+                "x": 1456,
+                "y": 771
+            },
+            {
+                "x": 1446,
+                "y": 761
+            },
+            {
+                "with_run": false,
+                "x": 1442,
+                "y": 761
+            },
+            {
+                "with_run": false,
+                "x": 1440,
+                "y": 764
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    },
+    {
+        "action": "前进",
+        "duration": "0.5s",
+        "execute_index": 1
+    },
+    {
+        "action": "右移",
+        "duration": "0.5s",
+        "execute_index": 2
+    },
+    {
+        "action": "左前",
+        "duration": "2s",
+        "execute_index": 3
+    }
+]

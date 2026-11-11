@@ -1,0 +1,163 @@
+[
+    {
+        "action": "右转",
+        "angle": "124度",
+        "execute_index": 0,
+        "memo": "315度"
+    },
+    {
+        "action": "前进",
+        "duration": "0.45s",
+        "execute_index": 1
+    },
+    {
+        "action": "右转",
+        "angle": "90度",
+        "execute_index": 2,
+        "memo": "45度"
+    },
+    {
+        "action": "前进",
+        "duration": "0.65s",
+        "execute_index": 3
+    },
+    {
+        "action": "左转",
+        "angle": "90度",
+        "execute_index": 4,
+        "memo": "315度"
+    },
+    {
+        "action": "按下",
+        "execute_index": 5,
+        "key": "w"
+    },
+    {
+        "action": "按下",
+        "execute_index": 6,
+        "key": "lshift",
+        "memo": "开始跑步"
+    },
+    {
+        "action": "等待",
+        "duration": "0.7s",
+        "execute_index": 7
+    },
+    {
+        "action": "左转",
+        "angle": "20度",
+        "execute_index": 8,
+        "memo": "295度"
+    },
+    {
+        "action": "等待",
+        "duration": "7.8s",
+        "execute_index": 9
+    },
+    {
+        "action": "左转",
+        "angle": "115度",
+        "execute_index": 10,
+        "memo": "180度"
+    },
+    {
+        "action": "等待",
+        "duration": "3.5s",
+        "execute_index": 11
+    },
+    {
+        "action": "右转",
+        "angle": "90度",
+        "execute_index": 12,
+        "memo": "270度"
+    },
+    {
+        "action": "等待",
+        "duration": "4.8s",
+        "execute_index": 13
+    },
+    {
+        "action": "右转",
+        "angle": "90度",
+        "execute_index": 14,
+        "memo": "0度"
+    },
+    {
+        "action": "等待",
+        "duration": "15s",
+        "execute_index": 15
+    },
+    {
+        "action": "释放",
+        "execute_index": 16,
+        "key": "lshift"
+    },
+    {
+        "action": "释放",
+        "execute_index": 17,
+        "key": "w"
+    },
+    {
+        "action": "右转",
+        "angle": "5度",
+        "execute_index": 18,
+        "memo": "5度"
+    },
+    {
+        "action": "右移",
+        "duration": "2s",
+        "execute_index": 19
+    },
+    {
+        "action": "前进",
+        "duration": "1.1s",
+        "execute_index": 20
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 21,
+        "target_angle": 300,
+        "tolerance": 0.5
+    },
+    {
+        "action": "前进",
+        "duration": "1s",
+        "execute_index": 22
+    },
+    {
+        "action": "左前",
+        "duration": "1.2s",
+        "execute_index": 23
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 24,
+        "target_angle": 212,
+        "tolerance": 0.5
+    },
+    {
+        "action": "左转",
+        "angle": "90度",
+        "execute_index": 25,
+        "memo": "122度"
+    },
+    {
+        "action": "低头",
+        "angle": "40度",
+        "execute_index": 26
+    },
+    {
+        "action": "floot",
+        "execute_index": 27,
+        "memo": "loot 工具箱"
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 28
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 29
+    }
+]

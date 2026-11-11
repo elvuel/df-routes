@@ -1,0 +1,116 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 8,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 变电站1号位附近-物资131",
+        "points": [
+            {
+                "x": 1159,
+                "y": 663
+            },
+            {
+                "x": 1143,
+                "y": 652
+            },
+            {
+                "x": 1126,
+                "y": 649
+            },
+            {
+                "x": 1103,
+                "y": 655
+            },
+            {
+                "x": 1091,
+                "y": 658
+            },
+            {
+                "x": 1080,
+                "y": 660
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    },
+    {
+        "action": "ensure_turn_to",
+        "angle_option.look_down_candidates": [
+            85,
+            75,
+            65,
+            55,
+            45,
+            35,
+            25,
+            15,
+            0
+        ],
+        "execute_index": 1,
+        "target_angle": 259,
+        "tolerance": 0.5
+    },
+    {
+        "action": "后退",
+        "duration": "0.5s",
+        "execute_index": 2
+    },
+    {
+        "action": "卧倒",
+        "execute_index": 3
+    },
+    {
+        "action": "前进",
+        "duration": "5s",
+        "execute_index": 4
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 5
+    },
+    {
+        "action": "后退",
+        "duration": "0.5s",
+        "execute_index": 6
+    },
+    {
+        "action": "跳跃",
+        "execute_index": 7
+    },
+    {
+        "action": "跳跃",
+        "execute_index": 8
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 9
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 10
+    },
+    {
+        "action": "低头",
+        "angle": "45度",
+        "execute_index": 11
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 12
+    },
+    {
+        "action": "floot",
+        "execute_index": 13
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 14
+    }
+]

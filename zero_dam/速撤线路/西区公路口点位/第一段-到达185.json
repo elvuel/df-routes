@@ -1,0 +1,44 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 0.5,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 第一段-到达185",
+        "points": [
+            {
+                "x": 507,
+                "y": 824
+            },
+            {
+                "x": 488,
+                "y": 799
+            },
+            {
+                "x": 476,
+                "y": 777
+            },
+            {
+                "x": 470,
+                "y": 755
+            },
+            {
+                "x": 470,
+                "y": 729
+            },
+            {
+                "x": 475,
+                "y": 692
+            },
+            {
+                "x": 486,
+                "y": 668
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "action": "import",
+        "execute_index": 0,
+        "import_code": "imp1",
+        "seq_name": "游客中心1号位/游客中心1号位降落点-坝顶索道门房"
+    },
+    {
+        "action": "import",
+        "execute_index": 1,
+        "import_code": "imp2",
+        "seq_name": "share/坝顶滑索附近舔包"
+    },
+    {
+        "action": "import",
+        "execute_index": 2,
+        "import_code": "imp3",
+        "seq_name": "游客中心1号位/坝顶鸟窝-坝顶索道口"
+    },
+    {
+        "action": "import",
+        "execute_index": 3,
+        "import_code": "imp4",
+        "seq_name": "share/下坝顶索道"
+    },
+    {
+        "action": "import",
+        "execute_index": 4,
+        "import_code": "imp5",
+        "seq_name": "游客中心1号位/坝顶下索道-东楼1号位附近"
+    },
+    {
+        "action": "import",
+        "execute_index": 5,
+        "import_code": "imp6",
+        "seq_name": "游客中心1号位/东楼1号位-变电站1号位附近"
+    },
+    {
+        "action": "import",
+        "execute_index": 6,
+        "import_code": "imp7",
+        "seq_name": "游客中心1号位/变电站1号位附近-物资131"
+    },
+    {
+        "action": "import",
+        "execute_index": 7,
+        "import_code": "imp8",
+        "seq_name": "游客中心1号位/物资131-行政楼南门鸟窝附近"
+    },
+    {
+        "action": "import",
+        "execute_index": 8,
+        "import_code": "imp9",
+        "seq_name": "物资点/111"
+    },
+    {
+        "action": "import",
+        "execute_index": 9,
+        "import_code": "imp10",
+        "seq_name": "游客中心1号位/行政楼南门鸟窝-行政楼西南门附近"
+    },
+    {
+        "action": "import",
+        "execute_index": 10,
+        "import_code": "imp11",
+        "seq_name": "游客中心1号位/军营1号位降落点附近-管道外灯外侧"
+    },
+    {
+        "action": "import",
+        "execute_index": 11,
+        "import_code": "imp12",
+        "seq_name": "游客中心1号位/管道外灯-管道外门"
+    },
+    {
+        "action": "import",
+        "execute_index": 12,
+        "import_code": "imp13",
+        "seq_name": "share/管道开门-管道内中段"
+    },
+    {
+        "action": "import",
+        "execute_index": 13,
+        "import_code": "imp14",
+        "seq_name": "share/管道内舔包"
+    },
+    {
+        "action": "import",
+        "execute_index": 14,
+        "import_code": "imp15",
+        "seq_name": "游客中心1号位/管道外灯-西区公路口撤离点"
+    }
+]

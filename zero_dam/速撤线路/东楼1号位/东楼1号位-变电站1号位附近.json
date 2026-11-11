@@ -1,0 +1,44 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 6,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 东楼1号位-变电站1号位附近",
+        "points": [
+            {
+                "x": 1339,
+                "y": 745
+            },
+            {
+                "x": 1311,
+                "y": 734
+            },
+            {
+                "x": 1279,
+                "y": 718
+            },
+            {
+                "x": 1244,
+                "y": 705
+            },
+            {
+                "x": 1222,
+                "y": 696
+            },
+            {
+                "x": 1194,
+                "y": 683
+            },
+            {
+                "x": 1178,
+                "y": 674
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    }
+]

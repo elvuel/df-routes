@@ -1,0 +1,165 @@
+[
+    {
+        "action": "恢复视角",
+        "execute_index": 0
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 1
+    },
+    {
+        "action": "前进",
+        "duration": "2s",
+        "execute_index": 2,
+        "with_run": true
+    },
+    {
+        "action": "左转",
+        "angle": "66度",
+        "execute_index": 3,
+        "memo": "16-310度"
+    },
+    {
+        "action": "前进",
+        "duration": "10s",
+        "execute_index": 4,
+        "with_run": true
+    },
+    {
+        "action": "右转",
+        "angle": "23度",
+        "execute_index": 5,
+        "memo": "333度"
+    },
+    {
+        "action": "前进",
+        "duration": "10s",
+        "execute_index": 6,
+        "with_run": true
+    },
+    {
+        "action": "右转",
+        "angle": "18度",
+        "execute_index": 7,
+        "memo": "351度"
+    },
+    {
+        "action": "前进",
+        "duration": "16s",
+        "execute_index": 8,
+        "with_run": true
+    },
+    {
+        "action": "按下",
+        "execute_index": 9,
+        "key": "w"
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 10
+    },
+    {
+        "action": "跳跃",
+        "execute_index": 11
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 12
+    },
+    {
+        "action": "跳跃",
+        "execute_index": 13
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 14
+    },
+    {
+        "action": "释放",
+        "execute_index": 15,
+        "key": "w"
+    },
+    {
+        "action": "右移",
+        "duration": "1.5s",
+        "execute_index": 16,
+        "with_run": true
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 17,
+        "retry_count": 8,
+        "retry_interval": "300ms",
+        "target_angle": 330,
+        "tolerance": 1
+    },
+    {
+        "action": "右转",
+        "angle": "30度",
+        "execute_index": 18,
+        "memo": "0度"
+    },
+    {
+        "action": "右前",
+        "duration": "3.5s",
+        "execute_index": 19,
+        "with_run": true
+    },
+    {
+        "action": "后退",
+        "duration": "1s",
+        "execute_index": 20,
+        "with_run": true
+    },
+    {
+        "action": "左移",
+        "duration": "0.55s",
+        "execute_index": 21,
+        "with_run": true
+    },
+    {
+        "action": "左转",
+        "angle": "20度",
+        "execute_index": 22,
+        "memo": "340度"
+    },
+    {
+        "action": "前进",
+        "duration": "0.5s",
+        "execute_index": 23
+    },
+    {
+        "action": "低头",
+        "angle": "70度",
+        "execute_index": 24,
+        "memo": "井口"
+    },
+    {
+        "action": "import",
+        "execute_index": 25,
+        "import_code": "imp1",
+        "seq_name": "share/游客中心竖井-变电站宿舍北门"
+    },
+    {
+        "action": "import",
+        "execute_index": 26,
+        "import_code": "imp2",
+        "seq_name": "share/变电站宿舍-河滩管道"
+    },
+    {
+        "action": "import",
+        "execute_index": 27,
+        "import_code": "imp3",
+        "seq_name": "share/河滩管道-西南军用医疗包房内舔包"
+    },
+    {
+        "action": "import",
+        "execute_index": 28,
+        "import_code": "imp4",
+        "seq_name": "share/西南军用医疗包房内-西区撤离点"
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 6,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 行政楼南门鸟窝-行政楼西南门附近",
+        "points": [
+            {
+                "x": 1005,
+                "y": 585
+            },
+            {
+                "x": 984,
+                "y": 570
+            },
+            {
+                "x": 949,
+                "y": 558
+            },
+            {
+                "x": 922,
+                "y": 548
+            },
+            {
+                "x": 895,
+                "y": 534
+            },
+            {
+                "x": 883,
+                "y": 538
+            },
+            {
+                "x": 869,
+                "y": 540
+            },
+            {
+                "x": 835,
+                "y": 546
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "execute_index": 0,
+        "action": "continuous_move_by_points",
+        "memo": "零号大坝 / 路线 12",
+        "with_run": true,
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "auto_switch_point_distance": true,
+        "switch_point_distance": 12,
+        "arrival_distance": 10,
+        "points": [
+            {
+                "x": 1430,
+                "y": 952
+            },
+            {
+                "x": 1416,
+                "y": 944
+            },
+            {
+                "x": 1377,
+                "y": 934
+            },
+            {
+                "x": 1361,
+                "y": 946
+            },
+            {
+                "x": 1352,
+                "y": 961
+            },
+            {
+                "x": 1348,
+                "y": 963
+            },
+            {
+                "x": 1346,
+                "y": 968
+            },
+            {
+                "x": 1345,
+                "y": 973
+            }
+        ]
+    }
+]

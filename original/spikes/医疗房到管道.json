@@ -1,0 +1,146 @@
+[
+    {
+        "action": "恢复视角",
+        "execute_index": 0
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 1
+    },
+    {
+        "action": "左移",
+        "duration": "1.5s",
+        "execute_index": 512
+    },
+    {
+        "action": "前进",
+        "duration": "0.25s",
+        "execute_index": 513
+    },
+    {
+        "action": "低头",
+        "angle": "40度",
+        "execute_index": 514
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 515
+    },
+    {
+        "action": "floot",
+        "execute_index": 516
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 517
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 518
+    },
+    {
+        "action": "右转",
+        "angle": "124度",
+        "execute_index": 519,
+        "memo": "315度"
+    },
+    {
+        "action": "前进",
+        "duration": "0.45s",
+        "execute_index": 520
+    },
+    {
+        "action": "右转",
+        "angle": "90度",
+        "execute_index": 521,
+        "memo": "45度"
+    },
+    {
+        "action": "前进",
+        "duration": "0.65s",
+        "execute_index": 522
+    },
+    {
+        "action": "左转",
+        "angle": "90度",
+        "execute_index": 523,
+        "memo": "315度"
+    },
+    {
+        "action": "按下",
+        "execute_index": 524,
+        "key": "w"
+    },
+    {
+        "action": "按下",
+        "execute_index": 525,
+        "key": "lshift",
+        "memo": "开始跑步"
+    },
+    {
+        "action": "等待",
+        "duration": "0.7s",
+        "execute_index": 526
+    },
+    {
+        "action": "左转",
+        "angle": "20度",
+        "execute_index": 527,
+        "memo": "295度"
+    },
+    {
+        "action": "等待",
+        "duration": "7.8s",
+        "execute_index": 528
+    },
+    {
+        "action": "左转",
+        "angle": "115度",
+        "execute_index": 529,
+        "memo": "180度"
+    },
+    {
+        "action": "等待",
+        "duration": "5.5s",
+        "execute_index": 530
+    },
+    {
+        "action": "左转",
+        "angle": "25度",
+        "execute_index": 531,
+        "memo": "155度"
+    },
+    {
+        "action": "等待",
+        "duration": "6s",
+        "execute_index": 532
+    },
+    {
+        "action": "释放",
+        "execute_index": 533,
+        "key": "lshift"
+    },
+    {
+        "action": "释放",
+        "execute_index": 534,
+        "key": "w"
+    },
+    {
+        "action": "右移",
+        "duration": "0.5s",
+        "execute_index": 535
+    },
+    {
+        "action": "卧倒",
+        "execute_index": 536
+    },
+    {
+        "action": "右转",
+        "angle": "190度",
+        "execute_index": 537,
+        "memo": "345度"
+    }
+]

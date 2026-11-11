@@ -1,0 +1,391 @@
+[
+    {
+        "action": "恢复视角"
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s"
+    },
+    {
+        "action": "左转",
+        "angle": "4度"
+    },
+    {
+        "action": "前进",
+        "duration": "2.5s",
+        "run": true,
+        "memo": "正面旅行包"
+    },
+    {
+        "action": "ensure_turn_to",
+        "target_angle": 16,
+        "tolerance": 2,
+        "restore_view_after_turn": true,
+        "look_down_before_capture": true,
+        "look_down_before_capture_degrees": 75,
+        "retry_count": 8,
+        "retry_interval": "450ms"
+    },
+    {
+        "action": "低头",
+        "angle": "20度"
+    },
+    {
+        "action": "detect_f_icon",
+        "threshold": 0.85,
+        "debug": true,
+        "success_actions": [
+            {
+                "action": "print_hello",
+                "message": "got"
+            }
+        ],
+        "failure_actions": [
+            {
+                "action": "print_hello",
+                "message": "misssssssssssssssssssssssssssssssssed"
+            },
+            {
+                "action": "spiral_detect_f_icon",
+                "spiral_move": {
+                    "turns": 10,
+                    "radius_start": 20,
+                    "radius_end": 180,
+                    "start_angle": 0,
+                    "clockwise": true,
+                    "steps": 120,
+                    "duration": "10s",
+                    "speed": 0.8,
+                    "min_segment_length": 2.5,
+                    "smooth_accel": true,
+                    "callback_interval": "200ms"
+                },
+                "detect_f_icon": {
+                    "threshold": 0.85,
+                    "debug": false,
+                    "success_actions": [
+                        {
+                            "action": "print_hello",
+                            "message": "got"
+                        }
+                    ],
+                    "failure_actions": [
+                        {
+                            "action": "print_hello",
+                            "message": "missed"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "action": "右转",
+        "angle": "180度"
+    },
+    {
+        "action": "前进",
+        "duration": "3s",
+        "run": true,
+        "memo": "水泥管道1"
+    },
+    {
+        "action": "ensure_turn_to",
+        "target_angle": 119,
+        "tolerance": 2,
+        "restore_view_after_turn": true,
+        "look_down_before_capture": true,
+        "look_down_before_capture_degrees": 75,
+        "retry_count": 8,
+        "retry_interval": "450ms"
+    },
+    {
+        "action": "前进",
+        "duration": "0.5s",
+        "run": true,
+        "memo": "水泥管道1"
+    },
+    {
+        "action": "低头",
+        "angle": "40度",
+        "memo": "水泥管道1旅行包"
+    },
+    {
+        "action": "detect_f_icon",
+        "threshold": 0.85,
+        "debug": true,
+        "success_actions": [
+            {
+                "action": "print_hello",
+                "message": "got"
+            }
+        ],
+        "failure_actions": [
+            {
+                "action": "print_hello",
+                "message": "misssssssssssssssssssssssssssssssssed"
+            },
+            {
+                "action": "spiral_detect_f_icon",
+                "spiral_move": {
+                    "turns": 10,
+                    "radius_start": 20,
+                    "radius_end": 180,
+                    "start_angle": 0,
+                    "clockwise": true,
+                    "steps": 120,
+                    "duration": "10s",
+                    "speed": 0.8,
+                    "min_segment_length": 2.5,
+                    "smooth_accel": true,
+                    "callback_interval": "200ms"
+                },
+                "detect_f_icon": {
+                    "threshold": 0.85,
+                    "debug": false,
+                    "success_actions": [
+                        {
+                            "action": "print_hello",
+                            "message": "got"
+                        }
+                    ],
+                    "failure_actions": [
+                        {
+                            "action": "print_hello",
+                            "message": "missed"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "action": "恢复视角"
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s"
+    },
+    {
+        "action": "ensure_turn_to",
+        "target_angle": 298,
+        "tolerance": 2,
+        "restore_view_after_turn": true,
+        "look_down_before_capture": true,
+        "look_down_before_capture_degrees": 75,
+        "retry_count": 8,
+        "retry_interval": "450ms"
+    },
+    {
+        "action": "前进",
+        "run": true,
+        "duration": "6.2s"
+    },
+    {
+        "action": "ensure_turn_to",
+        "target_angle": 210,
+        "tolerance": 2,
+        "restore_view_after_turn": true,
+        "look_down_before_capture": true,
+        "look_down_before_capture_degrees": 75,
+        "retry_count": 8,
+        "retry_interval": "450ms"
+    },
+    {
+        "action": "前进",
+        "duration": "1s",
+        "run": true,
+        "memo": "门房旅行包"
+    },
+    {
+        "action": "开门"
+    },
+    {
+        "action": "等待",
+        "duration": "1.5s"
+    },
+    {
+        "action": "前进",
+        "duration": "0.8s",
+        "run": true,
+        "memo": "靠近门房旅行包"
+    },
+    {
+        "action": "ensure_turn_to",
+        "target_angle": 168,
+        "tolerance": 2,
+        "restore_view_after_turn": true,
+        "look_down_before_capture": true,
+        "look_down_before_capture_degrees": 75,
+        "retry_count": 8,
+        "retry_interval": "450ms",
+        "memo": "朝向门房旅行包"
+    },
+    {
+        "action": "低头",
+        "angle": "60度",
+        "memo": "门房旅行包"
+    },
+    {
+        "action": "detect_f_icon",
+        "threshold": 0.85,
+        "debug": true,
+        "success_actions": [
+            {
+                "action": "print_hello",
+                "message": "got"
+            }
+        ],
+        "failure_actions": [
+            {
+                "action": "print_hello",
+                "message": "misssssssssssssssssssssssssssssssssed"
+            },
+            {
+                "action": "spiral_detect_f_icon",
+                "spiral_move": {
+                    "turns": 10,
+                    "radius_start": 20,
+                    "radius_end": 180,
+                    "start_angle": 0,
+                    "clockwise": true,
+                    "steps": 120,
+                    "duration": "10s",
+                    "speed": 0.8,
+                    "min_segment_length": 2.5,
+                    "smooth_accel": true,
+                    "callback_interval": "200ms"
+                },
+                "detect_f_icon": {
+                    "threshold": 0.85,
+                    "debug": false,
+                    "success_actions": [
+                        {
+                            "action": "print_hello",
+                            "message": "got"
+                        }
+                    ],
+                    "failure_actions": [
+                        {
+                            "action": "print_hello",
+                            "message": "missed"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "action": "恢复视角"
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s"
+    },
+    {
+        "action": "右转",
+        "angle": "180度",
+        "memo": "朝向旅行包门房（出门）"
+    },
+    {
+        "action": "前进",
+        "duration": "0.8s",
+        "run": true,
+        "memo": "靠近旅行包门房（出门）"
+    },
+    {
+        "action": "ensure_turn_to",
+        "target_angle": 12,
+        "tolerance": 2,
+        "restore_view_after_turn": true,
+        "look_down_before_capture": true,
+        "look_down_before_capture_degrees": 75,
+        "retry_count": 8,
+        "retry_interval": "450ms",
+        "memo": "朝向门房旅行包"
+    },
+    {
+        "action": "前进",
+        "duration": "4.5s",
+        "run": true,
+        "memo": "出旅行包门房门，跑向管道"
+    },
+    {
+        "action": "左转",
+        "angle": "108度",
+        "memo": "朝向水泥管道2"
+    },
+    {
+        "action": "前进",
+        "duration": "1s",
+        "run": true,
+        "memo": "靠近水泥管道2旅行包"
+    },
+    {
+        "action": "低头",
+        "angle": "60度",
+        "memo": "门房旅行包"
+    },
+    {
+        "action": "detect_f_icon",
+        "threshold": 0.85,
+        "debug": true,
+        "success_actions": [
+            {
+                "action": "print_hello",
+                "message": "got"
+            }
+        ],
+        "failure_actions": [
+            {
+                "action": "print_hello",
+                "message": "misssssssssssssssssssssssssssssssssed"
+            },
+            {
+                "action": "spiral_detect_f_icon",
+                "spiral_move": {
+                    "turns": 10,
+                    "radius_start": 20,
+                    "radius_end": 180,
+                    "start_angle": 0,
+                    "clockwise": true,
+                    "steps": 120,
+                    "duration": "10s",
+                    "speed": 0.8,
+                    "min_segment_length": 2.5,
+                    "smooth_accel": true,
+                    "callback_interval": "200ms"
+                },
+                "detect_f_icon": {
+                    "threshold": 0.85,
+                    "debug": false,
+                    "success_actions": [
+                        {
+                            "action": "print_hello",
+                            "message": "got"
+                        }
+                    ],
+                    "failure_actions": [
+                        {
+                            "action": "print_hello",
+                            "message": "missed"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "action": "恢复视角"
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s"
+    },
+    {
+        "action": "前进",
+        "duration": "8s",
+        "run": true,
+        "memo": "靠近水泥管道2旅行包"
+    }
+]

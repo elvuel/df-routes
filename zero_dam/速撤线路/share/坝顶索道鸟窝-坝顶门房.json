@@ -1,0 +1,70 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 2,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 坝顶索道鸟窝-坝顶门房",
+        "points": [
+            {
+                "x": 1438,
+                "y": 778
+            },
+            {
+                "x": 1444,
+                "y": 764
+            },
+            {
+                "x": 1447,
+                "y": 749
+            },
+            {
+                "x": 1459,
+                "y": 742
+            },
+            {
+                "x": 1464,
+                "y": 717
+            },
+            {
+                "x": 1483,
+                "y": 674
+            },
+            {
+                "x": 1503,
+                "y": 628
+            },
+            {
+                "x": 1519,
+                "y": 609
+            },
+            {
+                "x": 1529,
+                "y": 595
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    },
+    {
+        "action": "goto_point",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival": 0.5,
+        "dynamic_run": false,
+        "execute_index": 1,
+        "fine_start": 1,
+        "fine_steps": 15,
+        "memo": "方案A-最后点goto_point更准收尾",
+        "point": [
+            1524,
+            592
+        ],
+        "turn": true,
+        "with_run": false
+    }
+]

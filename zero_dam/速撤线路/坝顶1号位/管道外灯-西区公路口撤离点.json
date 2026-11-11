@@ -1,0 +1,115 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 6,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 管道外灯-西区公路口撤离点",
+        "points": [
+            {
+                "x": 563,
+                "y": 559
+            },
+            {
+                "x": 555,
+                "y": 567
+            },
+            {
+                "x": 538,
+                "y": 586
+            },
+            {
+                "x": 516,
+                "y": 612
+            },
+            {
+                "x": 508,
+                "y": 629
+            },
+            {
+                "x": 499,
+                "y": 642
+            },
+            {
+                "x": 490,
+                "y": 654
+            },
+            {
+                "x": 492,
+                "y": 667
+            },
+            {
+                "x": 486,
+                "y": 674
+            },
+            {
+                "x": 475,
+                "y": 692
+            },
+            {
+                "x": 470,
+                "y": 729
+            },
+            {
+                "x": 470,
+                "y": 755
+            },
+            {
+                "x": 476,
+                "y": 777
+            },
+            {
+                "x": 488,
+                "y": 799
+            },
+            {
+                "x": 507,
+                "y": 826
+            },
+            {
+                "x": 518,
+                "y": 836
+            },
+            {
+                "x": 541,
+                "y": 854
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    },
+    {
+        "action": "goto_point",
+        "angle_option": {
+            "source": "Compass"
+        },
+        "arrival": 0.5,
+        "execute_index": 1,
+        "fine_start": 3,
+        "initial_turn": {
+            "target_angle": 128,
+            "tolerance": 2
+        },
+        "point": [
+            541,
+            854
+        ],
+        "turn": true
+    },
+    {
+        "action": "低头",
+        "angle": "80度",
+        "execute_index": 2
+    },
+    {
+        "action": "press_g",
+        "execute_index": 3
+    },
+    {
+        "action": "卧倒",
+        "execute_index": 4
+    }
+]

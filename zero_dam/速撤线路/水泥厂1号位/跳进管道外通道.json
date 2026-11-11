@@ -1,0 +1,54 @@
+[
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 11,
+        "target_angle": 295,
+        "tolerance": 0.5
+    },
+    {
+        "action": "前进",
+        "duration": "9.5s",
+        "execute_index": 12,
+        "with_run": true
+    },
+    {
+        "action": "左前",
+        "duration": "2s",
+        "execute_index": 13,
+        "memo": "295度",
+        "with_run": true
+    },
+    {
+        "action": "按下",
+        "execute_index": 14,
+        "key": "w"
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 15
+    },
+    {
+        "action": "跳跃",
+        "execute_index": 16
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 17
+    },
+    {
+        "action": "跳跃",
+        "execute_index": 18
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s",
+        "execute_index": 19
+    },
+    {
+        "action": "释放",
+        "execute_index": 20,
+        "key": "w"
+    }
+]

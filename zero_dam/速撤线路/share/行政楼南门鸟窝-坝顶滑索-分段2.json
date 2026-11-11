@@ -1,0 +1,54 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 0.5,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 行政楼南门鸟窝-坝顶滑索-分段2",
+        "points": [
+            {
+                "x": 1200,
+                "y": 691
+            },
+            {
+                "x": 1270,
+                "y": 718
+            },
+            {
+                "x": 1321,
+                "y": 738
+            },
+            {
+                "x": 1351,
+                "y": 762
+            },
+            {
+                "x": 1372,
+                "y": 779
+            },
+            {
+                "x": 1388,
+                "y": 782
+            },
+            {
+                "x": 1397,
+                "y": 777
+            },
+            {
+                "x": 1399,
+                "y": 766
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    },
+    {
+        "action": "前进",
+        "duration": "2s",
+        "execute_index": 1,
+        "with_run": true
+    }
+]

@@ -1,0 +1,502 @@
+[
+    {
+        "action": "等待",
+        "duration": "1.5s",
+        "execute_index": 0
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 1,
+        "target_angle": 214,
+        "tolerance": 0.5
+    },
+    {
+        "action": "左前",
+        "duration": "1s",
+        "execute_index": 2
+    },
+    {
+        "action": "右转",
+        "angle": "101度",
+        "execute_index": 3,
+        "memo": "315度"
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 4,
+        "retry_count": 8,
+        "retry_interval": "300ms",
+        "target_angle": 315,
+        "tolerance": 1
+    },
+    {
+        "action": "前进",
+        "duration": "1.8s",
+        "execute_index": 5,
+        "with_run": true
+    },
+    {
+        "action": "左转",
+        "angle": "90度",
+        "execute_index": 6,
+        "memo": "225度"
+    },
+    {
+        "action": "前进",
+        "duration": "1.2s",
+        "execute_index": 7,
+        "with_run": true
+    },
+    {
+        "action": "右转",
+        "angle": "90度",
+        "execute_index": 8,
+        "memo": "315度"
+    },
+    {
+        "action": "前进",
+        "duration": "1.3s",
+        "execute_index": 9,
+        "with_run": true
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 10
+    },
+    {
+        "action": "左转",
+        "angle": "167度",
+        "execute_index": 11,
+        "memo": "148度"
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 12,
+        "target_angle": 148,
+        "tolerance": 0.5
+    },
+    {
+        "action": "前进",
+        "duration": "1.5s",
+        "execute_index": 13
+    },
+    {
+        "action": "卧倒",
+        "execute_index": 14
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 15
+    },
+    {
+        "action": "左转",
+        "angle": "10度",
+        "execute_index": 16,
+        "memo": "138度"
+    },
+    {
+        "action": "抬头",
+        "angle": "20度",
+        "execute_index": 17
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 18
+    },
+    {
+        "action": "floot",
+        "execute_index": 19,
+        "memo": "鸟窝"
+    },
+    {
+        "action": "后退",
+        "duration": "1s",
+        "execute_index": 20
+    },
+    {
+        "action": "跳跃",
+        "execute_index": 21
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 22
+    },
+    {
+        "action": "右转",
+        "angle": "192度",
+        "execute_index": 23,
+        "memo": "330度"
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 24,
+        "target_angle": 330,
+        "tolerance": 0.5
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 25
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 26
+    },
+    {
+        "action": "前进",
+        "duration": "0.8s",
+        "execute_index": 27
+    },
+    {
+        "action": "左转",
+        "angle": "20度",
+        "execute_index": 28,
+        "memo": "310度"
+    },
+    {
+        "action": "前进",
+        "duration": "2.65s",
+        "execute_index": 29,
+        "with_run": true
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s",
+        "execute_index": 30
+    },
+    {
+        "action": "开门",
+        "execute_index": 31
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 32
+    },
+    {
+        "action": "开门",
+        "execute_index": 33
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 34
+    },
+    {
+        "action": "前进",
+        "duration": "1s",
+        "execute_index": 35,
+        "with_run": true
+    },
+    {
+        "action": "左前",
+        "duration": "0.8s",
+        "execute_index": 36
+    },
+    {
+        "action": "右转",
+        "angle": "95度",
+        "execute_index": 37,
+        "memo": "45度"
+    },
+    {
+        "action": "转向到",
+        "angle": "45度",
+        "execute_index": 38,
+        "tolerance": 0.5
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 39
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 40
+    },
+    {
+        "action": "前进",
+        "duration": "1.2s",
+        "execute_index": 41,
+        "with_run": true
+    },
+    {
+        "action": "左转",
+        "angle": "90度",
+        "execute_index": 42,
+        "memo": "315度"
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 43,
+        "retry_count": 8,
+        "retry_interval": "300ms",
+        "target_angle": 315,
+        "tolerance": 1
+    },
+    {
+        "action": "前进",
+        "duration": "0.5s",
+        "execute_index": 44,
+        "with_run": true
+    },
+    {
+        "action": "左转",
+        "angle": "90度",
+        "execute_index": 45,
+        "memo": "225度"
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 46,
+        "retry_count": 8,
+        "retry_interval": "300ms",
+        "target_angle": 225,
+        "tolerance": 1
+    },
+    {
+        "action": "前进",
+        "duration": "0.7s",
+        "execute_index": 47,
+        "with_run": true
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s",
+        "execute_index": 48
+    },
+    {
+        "action": "开门",
+        "execute_index": 49
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 50
+    },
+    {
+        "action": "前进",
+        "duration": "0.75s",
+        "execute_index": 51,
+        "with_run": true
+    },
+    {
+        "action": "右转",
+        "angle": "90度",
+        "execute_index": 52,
+        "memo": "315度"
+    },
+    {
+        "action": "前进",
+        "duration": "0.3s",
+        "execute_index": 53
+    },
+    {
+        "action": "低头",
+        "angle": "10度",
+        "execute_index": 54
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 55
+    },
+    {
+        "action": "floot",
+        "execute_index": 56
+    },
+    {
+        "action": "后退",
+        "duration": "0.55s",
+        "execute_index": 57
+    },
+    {
+        "action": "右转",
+        "angle": "90度",
+        "execute_index": 58,
+        "memo": "45度"
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 59,
+        "retry_count": 8,
+        "retry_interval": "300ms",
+        "target_angle": 45,
+        "tolerance": 1
+    },
+    {
+        "action": "前进",
+        "duration": "0.85s",
+        "execute_index": 60,
+        "with_run": true
+    },
+    {
+        "action": "左转",
+        "angle": "90度",
+        "execute_index": 61,
+        "memo": "315度"
+    },
+    {
+        "action": "转向到",
+        "angle": "315度",
+        "execute_index": 62,
+        "tolerance": 0.5
+    },
+    {
+        "action": "前进",
+        "duration": "9s",
+        "execute_index": 63,
+        "with_run": true
+    },
+    {
+        "action": "左转",
+        "angle": "101度",
+        "execute_index": 64,
+        "memo": "214度"
+    },
+    {
+        "action": "转向到",
+        "angle": "214度",
+        "execute_index": 65,
+        "tolerance": 0.5
+    },
+    {
+        "action": "前进",
+        "duration": "1.5s",
+        "execute_index": 66,
+        "with_run": true
+    },
+    {
+        "action": "左前",
+        "duration": "1.5s",
+        "execute_index": 67
+    },
+    {
+        "action": "右转",
+        "angle": "36度",
+        "execute_index": 68,
+        "memo": "240度"
+    },
+    {
+        "action": "转向到",
+        "angle": "240度",
+        "execute_index": 69,
+        "tolerance": 0.5
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 70
+    },
+    {
+        "action": "floot",
+        "execute_index": 71
+    },
+    {
+        "action": "右转",
+        "angle": "75度",
+        "execute_index": 72,
+        "memo": "315度"
+    },
+    {
+        "action": "转向到",
+        "angle": "315度",
+        "execute_index": 73,
+        "memo": "正对楼梯门",
+        "tolerance": 0.5
+    },
+    {
+        "action": "右移",
+        "duration": "0.25s",
+        "execute_index": 74
+    },
+    {
+        "action": "前进",
+        "duration": "0.7s",
+        "execute_index": 75,
+        "with_run": true
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s",
+        "execute_index": 76
+    },
+    {
+        "action": "开门",
+        "execute_index": 77
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 78
+    },
+    {
+        "action": "前进",
+        "duration": "2.2s",
+        "execute_index": 79
+    },
+    {
+        "action": "抬头",
+        "angle": "60度",
+        "execute_index": 80
+    },
+    {
+        "action": "鼠标单击",
+        "execute_index": 81
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s",
+        "execute_index": 82
+    },
+    {
+        "action": "鼠标单击",
+        "execute_index": 83
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s",
+        "execute_index": 84
+    },
+    {
+        "action": "前进",
+        "duration": "0.2s",
+        "execute_index": 85
+    },
+    {
+        "action": "低头",
+        "angle": "80度",
+        "execute_index": 86
+    },
+    {
+        "action": "鼠标单击",
+        "execute_index": 87
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s",
+        "execute_index": 88
+    },
+    {
+        "action": "鼠标单击",
+        "execute_index": 89
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s",
+        "execute_index": 90
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 91
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 92
+    }
+]

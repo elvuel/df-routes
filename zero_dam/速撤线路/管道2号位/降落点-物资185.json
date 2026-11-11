@@ -1,0 +1,36 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 0.5,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 降落点-物资185",
+        "points": [
+            {
+                "x": 542,
+                "y": 584
+            },
+            {
+                "x": 529,
+                "y": 595
+            },
+            {
+                "x": 517,
+                "y": 609
+            },
+            {
+                "x": 515,
+                "y": 621
+            },
+            {
+                "x": 488,
+                "y": 664
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    }
+]

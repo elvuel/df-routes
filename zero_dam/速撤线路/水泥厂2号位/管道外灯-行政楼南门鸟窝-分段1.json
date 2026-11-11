@@ -1,0 +1,112 @@
+[
+    {
+        "action": "恢复视角",
+        "execute_index": 0
+    },
+    {
+        "action": "ensure_turn_to",
+        "angle": "60度",
+        "execute_index": 1,
+        "tolerance": 0.5
+    },
+    {
+        "action": "右转",
+        "angle": "75度",
+        "execute_index": 2,
+        "memo": "135度"
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 3
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 4
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 5
+    },
+    {
+        "action": "按下",
+        "execute_index": 6,
+        "key": "w"
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s",
+        "execute_index": 7
+    },
+    {
+        "action": "跳跃",
+        "execute_index": 8
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 9
+    },
+    {
+        "action": "跳跃",
+        "execute_index": 10
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 11
+    },
+    {
+        "action": "释放",
+        "execute_index": 12,
+        "key": "lshift",
+        "memo": "跳出管道区域"
+    },
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 3,
+        "auto_switch_point_distance": true,
+        "execute_index": 13,
+        "memo": "零号大坝 / 管道外灯-行政楼南门鸟窝-分段1",
+        "points": [
+            {
+                "x": 581,
+                "y": 555
+            },
+            {
+                "x": 595,
+                "y": 574
+            },
+            {
+                "x": 631,
+                "y": 575
+            },
+            {
+                "x": 681,
+                "y": 560
+            },
+            {
+                "x": 693,
+                "y": 567
+            },
+            {
+                "x": 719,
+                "y": 568
+            },
+            {
+                "x": 761,
+                "y": 573
+            },
+            {
+                "x": 789,
+                "y": 578
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    }
+]

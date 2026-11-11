@@ -1,0 +1,97 @@
+[
+    {
+        "action": "恢复视角",
+        "execute_index": 0
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 1
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 2,
+        "target_angle": 330,
+        "tolerance": 0.5
+    },
+    {
+        "action": "前进",
+        "duration": "12.8s",
+        "execute_index": 3,
+        "with_run": true
+    },
+    {
+        "action": "右转",
+        "angle": "36度",
+        "execute_index": 4,
+        "memo": "6度"
+    },
+    {
+        "action": "前进",
+        "duration": "12s",
+        "execute_index": 5,
+        "with_run": true
+    },
+    {
+        "action": "右移",
+        "duration": "2s",
+        "execute_index": 6
+    },
+    {
+        "action": "前进",
+        "duration": "1.1s",
+        "execute_index": 7
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 8,
+        "target_angle": 300,
+        "tolerance": 0.5
+    },
+    {
+        "action": "前进",
+        "duration": "1s",
+        "execute_index": 9
+    },
+    {
+        "action": "左前",
+        "duration": "1.2s",
+        "execute_index": 10
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 11,
+        "target_angle": 212,
+        "tolerance": 0.5
+    },
+    {
+        "action": "import",
+        "execute_index": 12,
+        "import_code": "imp1",
+        "seq_name": "share/管道外医疗箱子-管道内中段"
+    },
+    {
+        "action": "import",
+        "execute_index": 13,
+        "import_code": "imp2",
+        "seq_name": "share/管道内舔包"
+    },
+    {
+        "action": "import",
+        "execute_index": 14,
+        "import_code": "imp3",
+        "seq_name": "share/管道外灯-行政楼南门鸟窝"
+    },
+    {
+        "action": "import",
+        "execute_index": 15,
+        "import_code": "imp4",
+        "seq_name": "share/行政楼南门鸟窝-坝顶滑索附近"
+    },
+    {
+        "action": "import",
+        "execute_index": 16,
+        "import_code": "imp5",
+        "seq_name": "share/坝顶索道旁鸟窝-坝顶撤离点"
+    }
+]

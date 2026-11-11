@@ -1,0 +1,44 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 4,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 坝顶下索道-东楼1号位附近",
+        "points": [
+            {
+                "x": 1393,
+                "y": 775
+            },
+            {
+                "x": 1390,
+                "y": 779
+            },
+            {
+                "x": 1387,
+                "y": 782
+            },
+            {
+                "x": 1373,
+                "y": 778
+            },
+            {
+                "x": 1357,
+                "y": 770
+            },
+            {
+                "x": 1348,
+                "y": 760
+            },
+            {
+                "x": 1339,
+                "y": 751
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    }
+]

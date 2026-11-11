@@ -1,0 +1,47 @@
+[
+    {
+        "action": "goto_point",
+        "around_target_point_as_search_rect": false,
+        "arrival": 0.5,
+        "coordinate_target_max_distance": 15,
+        "execute_index": 0,
+        "fine_start": 3,
+        "fine_steps": 15,
+        "ignore": true,
+        "initial_turn": {
+            "target_angle": 188,
+            "tolerance": 0.5
+        },
+        "memo": "行政楼南门鸟窝，点位编号: 111",
+        "point": [
+            1021,
+            598
+        ],
+        "turn": true,
+        "with_run": true
+    },
+    {
+        "action": "右移",
+        "duration": "1s",
+        "execute_index": 1
+    },
+    {
+        "action": "低头",
+        "angle": "80度",
+        "execute_index": 2
+    },
+    {
+        "action": "floot",
+        "execute_index": 3,
+        "memo": "点位111"
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 4
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 5
+    }
+]

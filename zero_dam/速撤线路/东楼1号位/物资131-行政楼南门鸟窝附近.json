@@ -1,0 +1,40 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 10,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 物资131-行政楼南门鸟窝附近",
+        "points": [
+            {
+                "x": 1071,
+                "y": 667
+            },
+            {
+                "x": 1062,
+                "y": 666
+            },
+            {
+                "x": 1045,
+                "y": 654
+            },
+            {
+                "x": 1035,
+                "y": 642
+            },
+            {
+                "x": 1017,
+                "y": 628
+            },
+            {
+                "x": 1021,
+                "y": 597
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    }
+]

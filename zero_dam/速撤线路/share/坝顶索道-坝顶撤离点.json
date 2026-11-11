@@ -1,0 +1,52 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 0.5,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 坝顶索道-坝顶撤离点",
+        "points": [
+            {
+                "x": 1440,
+                "y": 743
+            },
+            {
+                "x": 1452,
+                "y": 733
+            },
+            {
+                "x": 1463,
+                "y": 716
+            },
+            {
+                "x": 1474,
+                "y": 694
+            },
+            {
+                "x": 1485,
+                "y": 671
+            },
+            {
+                "x": 1487,
+                "y": 652
+            },
+            {
+                "x": 1496,
+                "y": 631
+            },
+            {
+                "x": 1534,
+                "y": 589
+            },
+            {
+                "x": 1551,
+                "y": 608
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    }
+]

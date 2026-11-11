@@ -1,0 +1,33 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 1,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 管道外灯-管道外门",
+        "points": [
+            {
+                "x": 560,
+                "y": 550
+            },
+            {
+                "x": 571,
+                "y": 546
+            },
+            {
+                "x": 571,
+                "y": 539
+            }
+        ],
+        "switch_point_distance": 6,
+        "with_run": false
+    },
+    {
+        "action": "右前",
+        "duration": "1s",
+        "execute_index": 1
+    }
+]

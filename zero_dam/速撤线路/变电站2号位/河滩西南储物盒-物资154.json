@@ -1,0 +1,67 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 4,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 路线 2",
+        "points": [
+            {
+                "x": 820,
+                "y": 904
+            },
+            {
+                "x": 837,
+                "y": 884
+            },
+            {
+                "x": 838,
+                "y": 876
+            },
+            {
+                "x": 827,
+                "y": 872
+            },
+            {
+                "x": 821,
+                "y": 871
+            },
+            {
+                "x": 811,
+                "y": 882
+            },
+            {
+                "x": 804,
+                "y": 883
+            },
+            {
+                "x": 792,
+                "y": 887
+            },
+            {
+                "with_run": false,
+                "x": 781,
+                "y": 886
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    },
+    {
+        "action": "右移",
+        "duration": "1.5s",
+        "execute_index": 1
+    },
+    {
+        "action": "卧倒",
+        "execute_index": 2
+    },
+    {
+        "action": "前进",
+        "duration": "2.5s",
+        "execute_index": 3
+    }
+]

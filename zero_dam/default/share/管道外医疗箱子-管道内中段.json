@@ -1,0 +1,176 @@
+[
+    {
+        "action": "左转",
+        "angle": "90度",
+        "execute_index": 0,
+        "memo": "122度"
+    },
+    {
+        "action": "低头",
+        "angle": "40度",
+        "execute_index": 1
+    },
+    {
+        "action": "floot",
+        "execute_index": 2,
+        "memo": "loot 工具箱"
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 3
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 4
+    },
+    {
+        "action": "左转",
+        "angle": "91度",
+        "execute_index": 5,
+        "memo": "31度"
+    },
+    {
+        "action": "ensure_turn_to",
+        "angle": "31度",
+        "execute_index": 6,
+        "tolerance": 0.5
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 7
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 8
+    },
+    {
+        "action": "前进",
+        "duration": "12s",
+        "execute_index": 9,
+        "with_run": true
+    },
+    {
+        "action": "右前",
+        "duration": "3s",
+        "execute_index": 10
+    },
+    {
+        "action": "前进",
+        "duration": "7s",
+        "execute_index": 11,
+        "with_run": true
+    },
+    {
+        "action": "左移",
+        "duration": "1s",
+        "execute_index": 12
+    },
+    {
+        "action": "左前",
+        "duration": "1s",
+        "execute_index": 13
+    },
+    {
+        "action": "左转",
+        "angle": "141度",
+        "execute_index": 14,
+        "memo": "31度 - 250度"
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 15
+    },
+    {
+        "action": "长按键",
+        "duration": "3s",
+        "execute_index": 16,
+        "key": "f",
+        "memo": "破门"
+    },
+    {
+        "action": "开门",
+        "execute_index": 17
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 18
+    },
+    {
+        "action": "前进",
+        "duration": "0.5s",
+        "execute_index": 19
+    },
+    {
+        "action": "右转",
+        "angle": "73度",
+        "execute_index": 20,
+        "memo": "250度 - 323度"
+    },
+    {
+        "action": "ensure_turn_to",
+        "angle": "300度",
+        "execute_index": 21,
+        "tolerance": 0.5
+    },
+    {
+        "action": "右转",
+        "angle": "23度",
+        "execute_index": 22,
+        "memo": "323度"
+    },
+    {
+        "action": "前进",
+        "duration": "3.4s",
+        "execute_index": 23,
+        "with_run": true
+    },
+    {
+        "action": "右转",
+        "angle": "90度",
+        "execute_index": 24,
+        "memo": "323度-53度"
+    },
+    {
+        "action": "ensure_turn_to",
+        "angle": "56度",
+        "execute_index": 25,
+        "tolerance": 0.5
+    },
+    {
+        "action": "左转",
+        "angle": "3度",
+        "execute_index": 26,
+        "memo": "56度-53度"
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 27
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 28
+    },
+    {
+        "action": "前进",
+        "duration": "5.5s",
+        "execute_index": 29,
+        "with_run": true
+    },
+    {
+        "action": "左移",
+        "duration": "1.52s",
+        "execute_index": 30,
+        "memo": "上楼梯"
+    },
+    {
+        "action": "右转",
+        "angle": "180度",
+        "execute_index": 31,
+        "memo": "233度"
+    }
+]

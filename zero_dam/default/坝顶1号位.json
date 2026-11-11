@@ -1,0 +1,371 @@
+[
+    {
+        "action": "恢复视角",
+        "execute_index": 0
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 1
+    },
+    {
+        "action": "右转",
+        "angle": "177度",
+        "execute_index": 2,
+        "memo": "朝向坝顶"
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 3,
+        "target_angle": 28,
+        "tolerance": 0.5
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 4
+    },
+    {
+        "action": "前进",
+        "duration": "15.4s",
+        "execute_index": 5,
+        "run": true
+    },
+    {
+        "action": "释放前进键",
+        "execute_index": 6
+    },
+    {
+        "action": "左转",
+        "angle": "72度",
+        "execute_index": 7,
+        "memo": "转向衣服房"
+    },
+    {
+        "action": "左移",
+        "duration": "0.7s",
+        "execute_index": 8
+    },
+    {
+        "action": "前进",
+        "duration": "0.5s",
+        "execute_index": 9
+    },
+    {
+        "action": "左前",
+        "duration": "1.5s",
+        "execute_index": 10
+    },
+    {
+        "action": "turn_to",
+        "execute_index": 11,
+        "target_angle": 30,
+        "tolerance": 0.5
+    },
+    {
+        "action": "左转",
+        "angle": "74度",
+        "execute_index": 12,
+        "memo": "316度"
+    },
+    {
+        "action": "右移",
+        "duration": "0.65s",
+        "execute_index": 13
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 14
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 15
+    },
+    {
+        "action": "开门",
+        "execute_index": 16
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s",
+        "execute_index": 17
+    },
+    {
+        "action": "前进",
+        "duration": "1s",
+        "execute_index": 18,
+        "memo": "走到衣服前面",
+        "run": true
+    },
+    {
+        "action": "低头",
+        "angle": "45度",
+        "execute_index": 19,
+        "memo": "对衣服"
+    },
+    {
+        "action": "floot",
+        "execute_index": 20
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 21,
+        "target_angle": 120,
+        "tolerance": 0.5
+    },
+    {
+        "action": "右转",
+        "angle": "15度",
+        "execute_index": 22
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 23
+    },
+    {
+        "action": "前进",
+        "duration": "2.55s",
+        "execute_index": 24
+    },
+    {
+        "action": "左转",
+        "angle": "115度",
+        "execute_index": 25
+    },
+    {
+        "action": "前进",
+        "duration": "2.2s",
+        "execute_index": 26,
+        "run": true
+    },
+    {
+        "action": "左移",
+        "duration": "0.5s",
+        "execute_index": 27
+    },
+    {
+        "action": "前进",
+        "duration": "0.2s",
+        "execute_index": 28
+    },
+    {
+        "action": "左前",
+        "duration": "0.5s",
+        "execute_index": 29
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 30
+    },
+    {
+        "action": "右移",
+        "duration": "0.35s",
+        "execute_index": 31
+    },
+    {
+        "action": "turn_to",
+        "execute_index": 32,
+        "target_angle": 60,
+        "tolerance": 0.5
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 33
+    },
+    {
+        "action": "按键一次",
+        "execute_index": 34,
+        "key": "f"
+    },
+    {
+        "action": "等待",
+        "duration": "2s",
+        "execute_index": 35
+    },
+    {
+        "action": "按键一次",
+        "execute_index": 36,
+        "key": "f"
+    },
+    {
+        "action": "低头",
+        "angle": "80度",
+        "execute_index": 37
+    },
+    {
+        "action": "press_g",
+        "execute_index": 38
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 39
+    },
+    {
+        "action": "前进",
+        "duration": "0.8s",
+        "execute_index": 40
+    },
+    {
+        "action": "右转",
+        "angle": "62度",
+        "execute_index": 41
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 42,
+        "target_angle": 122,
+        "tolerance": 0.5
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 43
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 44
+    },
+    {
+        "action": "低头",
+        "angle": "70度",
+        "execute_index": 45,
+        "memo": "对旅行包"
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s",
+        "execute_index": 46
+    },
+    {
+        "action": "floot",
+        "execute_index": 47
+    },
+    {
+        "action": "恢复视角",
+        "execute_index": 48
+    },
+    {
+        "action": "右转",
+        "angle": "158度",
+        "execute_index": 49,
+        "memo": "朝向旅行包门口"
+    },
+    {
+        "action": "按下",
+        "execute_index": 50,
+        "key": "w"
+    },
+    {
+        "action": "按下",
+        "execute_index": 51,
+        "key": "lshift",
+        "memo": "开始跑步"
+    },
+    {
+        "action": "等待",
+        "duration": "0.4s",
+        "execute_index": 52
+    },
+    {
+        "action": "左转",
+        "angle": "75度",
+        "execute_index": 53,
+        "memo": "出旅行包左拐"
+    },
+    {
+        "action": "等待",
+        "duration": "5s",
+        "execute_index": 54
+    },
+    {
+        "action": "等待",
+        "duration": "15.5s",
+        "execute_index": 55,
+        "memo": "跑到滑梯附近"
+    },
+    {
+        "action": "右转",
+        "angle": "7度",
+        "execute_index": 56
+    },
+    {
+        "action": "等待",
+        "duration": "4.9s",
+        "execute_index": 57,
+        "memo": "跑到滑梯附近"
+    },
+    {
+        "action": "释放",
+        "execute_index": 58,
+        "key": "lshift"
+    },
+    {
+        "action": "释放",
+        "execute_index": 59,
+        "key": "w"
+    },
+    {
+        "action": "右转",
+        "angle": "87度",
+        "execute_index": 60,
+        "memo": "转向后角度 299"
+    },
+    {
+        "action": "前进",
+        "duration": "0.5s",
+        "execute_index": 61
+    },
+    {
+        "action": "左移",
+        "duration": "0.3s",
+        "execute_index": 62
+    },
+    {
+        "action": "左前",
+        "duration": "1.5s",
+        "execute_index": 63
+    },
+    {
+        "action": "import",
+        "execute_index": 64,
+        "import_code": "imp1",
+        "seq_name": "share/坝顶滑索附近舔包"
+    },
+    {
+        "action": "import",
+        "execute_index": 65,
+        "import_code": "imp2",
+        "seq_name": "share/坝顶索道旁鸟窝-游客中心竖井"
+    },
+    {
+        "action": "import",
+        "execute_index": 66,
+        "import_code": "imp3",
+        "memo": "坝顶滑索医疗包门口",
+        "seq_name": "share/游客中心竖井-变电站宿舍北门"
+    },
+    {
+        "action": "import",
+        "execute_index": 67,
+        "import_code": "imp4",
+        "memo": "坝顶滑索医疗包门口",
+        "seq_name": "share/变电站宿舍-河滩管道"
+    },
+    {
+        "action": "import",
+        "execute_index": 68,
+        "import_code": "imp5",
+        "memo": "坝顶滑索医疗包门口",
+        "seq_name": "share/河滩管道-西南军用医疗包房内舔包"
+    },
+    {
+        "action": "import",
+        "execute_index": 69,
+        "import_code": "imp6",
+        "memo": "坝顶滑索医疗包门口",
+        "seq_name": "share/西南军用医疗包房内-西区撤离点"
+    }
+]

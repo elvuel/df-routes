@@ -1,0 +1,50 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 6,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 坝顶1号位-坝顶索道门房",
+        "points": [
+            {
+                "x": 1465,
+                "y": 717
+            },
+            {
+                "x": 1461,
+                "y": 729
+            },
+            {
+                "x": 1458,
+                "y": 741
+            },
+            {
+                "x": 1452,
+                "y": 747
+            },
+            {
+                "x": 1443,
+                "y": 756
+            },
+            {
+                "x": 1440,
+                "y": 761
+            },
+            {
+                "x": 1440,
+                "y": 764
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    },
+    {
+        "action": "右前",
+        "duration": "1.5s",
+        "execute_index": 1,
+        "with_run": true
+    }
+]

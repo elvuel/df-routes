@@ -1,0 +1,99 @@
+[
+    {
+        "action": "恢复视角",
+        "execute_index": 0
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 1
+    },
+    {
+        "action": "前进",
+        "duration": "7.4s",
+        "execute_index": 2,
+        "run": true
+    },
+    {
+        "action": "左转",
+        "angle": "23度",
+        "execute_index": 3,
+        "memo": "337度"
+    },
+    {
+        "action": "前进",
+        "duration": "8s",
+        "execute_index": 4,
+        "run": true
+    },
+    {
+        "action": "左转",
+        "angle": "37度",
+        "execute_index": 5,
+        "memo": "300度"
+    },
+    {
+        "action": "前进",
+        "duration": "4.2s",
+        "execute_index": 6,
+        "run": true
+    },
+    {
+        "action": "左转",
+        "angle": "85度",
+        "execute_index": 7,
+        "memo": "215度"
+    },
+    {
+        "action": "前进",
+        "duration": "1.3s",
+        "execute_index": 8,
+        "run": true
+    },
+    {
+        "action": "右前",
+        "duration": "2s",
+        "execute_index": 9
+    },
+    {
+        "action": "右移",
+        "duration": "2s",
+        "execute_index": 10
+    },
+    {
+        "action": "后退",
+        "duration": "2s",
+        "execute_index": 11
+    },
+    {
+        "action": "右移",
+        "duration": "3s",
+        "execute_index": 12
+    },
+    {
+        "action": "ensure_turn_to",
+        "execute_index": 13,
+        "retry_count": 8,
+        "retry_interval": "300ms",
+        "target_angle": 209,
+        "tolerance": 1
+    },
+    {
+        "action": "import",
+        "execute_index": 14,
+        "import_code": "imp1",
+        "seq_name": "share/变电站宿舍-河滩管道"
+    },
+    {
+        "action": "import",
+        "execute_index": 15,
+        "import_code": "imp2",
+        "seq_name": "share/河滩管道-西南军用医疗包房内舔包"
+    },
+    {
+        "action": "import",
+        "execute_index": 16,
+        "import_code": "imp3",
+        "seq_name": "share/西南军用医疗包房内-西区撤离点"
+    }
+]

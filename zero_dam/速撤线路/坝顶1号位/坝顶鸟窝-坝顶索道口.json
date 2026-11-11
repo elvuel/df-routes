@@ -1,0 +1,57 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 4,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 坝顶鸟窝-坝顶索道口",
+        "points": [
+            {
+                "x": 1439,
+                "y": 776
+            },
+            {
+                "x": 1445,
+                "y": 765
+            },
+            {
+                "x": 1445,
+                "y": 751
+            },
+            {
+                "with_run": false,
+                "x": 1437,
+                "y": 746
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    },
+    {
+        "action": "goto_point",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival": 0.5,
+        "execute_index": 1,
+        "fine_start": 3,
+        "fine_steps": 15,
+        "initial_turn": {
+            "target_angle": 331,
+            "tolerance": 1.5
+        },
+        "point": [
+            1437,
+            746
+        ],
+        "turn": true
+    },
+    {
+        "action": "前进",
+        "duration": "0.3s",
+        "execute_index": 2
+    }
+]

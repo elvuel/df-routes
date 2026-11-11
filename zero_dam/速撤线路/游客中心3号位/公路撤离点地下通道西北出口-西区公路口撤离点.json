@@ -1,0 +1,70 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 4,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 公路撤离点地下通道西北出口-西区公路口撤离点",
+        "points": [
+            {
+                "x": 541,
+                "y": 746
+            },
+            {
+                "x": 530,
+                "y": 749
+            },
+            {
+                "x": 525,
+                "y": 773
+            },
+            {
+                "x": 526,
+                "y": 792
+            },
+            {
+                "x": 533,
+                "y": 806
+            },
+            {
+                "x": 536,
+                "y": 820
+            },
+            {
+                "x": 544,
+                "y": 843
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    },
+    {
+        "action": "goto_point",
+        "around_target_point_as_search_rect": false,
+        "arrival": 0.5,
+        "coordinate_target_max_distance": 15,
+        "execute_index": 1,
+        "fine_start": 3,
+        "fine_steps": 4,
+        "initial_turn": {
+            "target_angle": 336,
+            "tolerance": 0.5
+        },
+        "point": [
+            544,
+            843
+        ],
+        "turn": false
+    },
+    {
+        "action": "卧倒",
+        "execute_index": 2
+    },
+    {
+        "action": "press_g",
+        "execute_index": 3
+    }
+]

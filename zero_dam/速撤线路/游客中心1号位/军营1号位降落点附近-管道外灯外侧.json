@@ -1,0 +1,103 @@
+[
+    {
+        "action": "continuous_move_by_points",
+        "angle_option": {
+            "source": "Minimap"
+        },
+        "arrival_distance": 4,
+        "auto_switch_point_distance": true,
+        "execute_index": 0,
+        "memo": "零号大坝 / 军营1号位降落点附近-管道外灯外侧",
+        "points": [
+            {
+                "x": 806,
+                "y": 553
+            },
+            {
+                "x": 780,
+                "y": 559
+            },
+            {
+                "x": 709,
+                "y": 575
+            },
+            {
+                "x": 680,
+                "y": 558
+            },
+            {
+                "x": 640,
+                "y": 579
+            },
+            {
+                "x": 608,
+                "y": 579
+            },
+            {
+                "x": 579,
+                "y": 552
+            },
+            {
+                "with_run": false,
+                "x": 579,
+                "y": 556
+            }
+        ],
+        "switch_point_distance": 12,
+        "with_run": true
+    },
+    {
+        "action": "goto_point",
+        "around_target_point_as_search_rect": false,
+        "arrival": 0.6,
+        "coordinate_target_max_distance": 15,
+        "execute_index": 1,
+        "fine_start": 1,
+        "fine_steps": 15,
+        "ignore": true,
+        "initial_turn": {
+            "target_angle": 324,
+            "tolerance": 0.5
+        },
+        "memo": "管道外灯外侧",
+        "point": [
+            579,
+            556
+        ],
+        "turn": false,
+        "with_run": false
+    },
+    {
+        "action": "按下",
+        "execute_index": 2,
+        "key": "w"
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 3
+    },
+    {
+        "action": "跳跃",
+        "execute_index": 4
+    },
+    {
+        "action": "等待",
+        "duration": "1s",
+        "execute_index": 5
+    },
+    {
+        "action": "跳跃",
+        "execute_index": 6
+    },
+    {
+        "action": "等待",
+        "duration": "0.5s",
+        "execute_index": 7
+    },
+    {
+        "action": "释放",
+        "execute_index": 8,
+        "key": "w"
+    }
+]
