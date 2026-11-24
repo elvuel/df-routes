@@ -27,9 +27,9 @@
             },
             {
                 "precise_arrival": true,
-                "precise_arrival_distance": 4,
-                "x": 1112,
-                "y": 905
+                "precise_arrival_distance": 3,
+                "x": 1113,
+                "y": 907
             },
             {
                 "x": 1105,
