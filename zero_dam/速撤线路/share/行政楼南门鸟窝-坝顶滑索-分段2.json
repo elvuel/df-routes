@@ -47,7 +47,13 @@
     },
     {
         "action": "前进",
-        "duration": "2s",
+        "duration": "1.2s",
+        "execute_index": 1,
+        "with_run": true
+    },
+    {
+        "action": "右前",
+        "duration": "0.8s",
         "execute_index": 1,
         "with_run": true
     }

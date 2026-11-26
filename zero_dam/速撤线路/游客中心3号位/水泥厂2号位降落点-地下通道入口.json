@@ -86,8 +86,24 @@
         "execute_index": 8
     },
     {
-        "action": "前进",
-        "duration": "1s",
-        "execute_index": 9
+        "action": "ensure_turn_to",
+        "execute_index": 9,
+        "target_angle": 225,
+        "tolerance": 0.5
+    },
+    {
+        "action": "goto_point",
+        "angle_option": {
+            "source": "c"
+        },
+        "arrival": 0.5,
+        "execute_index": 10,
+        "fine_start": 3,
+        "fine_steps": 10,
+        "point": [
+            667,
+            830
+        ],
+        "turn": false
     }
 ]
